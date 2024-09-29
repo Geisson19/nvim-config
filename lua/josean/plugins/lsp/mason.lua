@@ -25,9 +25,6 @@ return {
 		mason_lspconfig.setup({
 			-- list of servers for mason to install
 			ensure_installed = {
-				"tsserver",
-				"deno",
-				"dart-debug-adapter",
 				"html",
 				"cssls",
 				"tailwindcss",
